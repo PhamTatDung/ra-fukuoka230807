@@ -11,9 +11,4 @@ else{
         }
     }
 }
-if(soNguyenTo == true){
-    console.log(`${n} la mot so nguyen to`);
-}
-else{
-    console.log(`${n} khong phai la mot so nguyen to`);
-}
+soNguyenTo == true?console.log(`${n} la mot so nguyen to`):console.log(`${n} khong phai la mot so nguyen to`);

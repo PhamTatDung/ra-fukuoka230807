@@ -1,14 +1,14 @@
-for(let i = 1; i <= 100; i++){
-    if(i%3 == 0 && i%5 != 0){
+for (let i = 1; i <= 100; i++) {
+    if (i % 3 == 0 && i % 5 != 0) {
         console.log(`${i}: Fizz`);
     }
-    else if(i%3 != 0 && i%5 == 0){
+    else if (i % 3 != 0 && i % 5 == 0) {
         console.log(`${i}: Buzz`);
     }
-    else if(i%3 == 0 && i%5 == 0){
+    else if (i % 3 == 0 && i % 5 == 0) {
         console.log(`${i}: FizzBuzz`);
     }
-    else{
+    else {
         console.log(i);
     }
 }
